@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/client/css/bootstrap.min.css">
+    <script type = "text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: 1000;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/client/index.html">fooddy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="" href="/client/add.html">Add</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/client/browse.html">browse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/client/order.html">make order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/client/orderlist.html">view order</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input id="111" type="email" class="form-control" id="floatingInputGrid" placeholder="quantity">
+                <label for="floatingInputGrid">order name</label>
+              </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input id="122" type="email" class="form-control" id="floatingInputGrid" placeholder="quantity">
+                <label for="floatingInputGrid">quantity</label>
+              </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input id="133" type="email" class="form-control" id="floatingInputGrid" placeholder="adress" >
+                <label for="floatingInputGrid">adress</label>
+              </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2">
+            <button id="155" class="btn btn-primary" >make order</button>
+          </div>
+          <div class="d-grid gap-2">
+            <button id="166" class="btn btn-primary">delete</button>
+          </div>
+      </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="/client/index.js"></script>
+</body>
+</html>
